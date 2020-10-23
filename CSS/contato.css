@@ -55,7 +55,7 @@ body {
 .input-contato {
     display: flex;
     flex-direction: column;
-    margin: 0 25px;
+    margin: 0 20px;
 }
 .input-contato input {
     margin-bottom: 5px;
