@@ -6,18 +6,22 @@
     text-decoration: none;
 }
 body {
-    background-image: url(../img/fundo.jpg);
+    background-image: url(../img/fundoLogin.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-bottom: 50px;
-    padding: 5px 200px;
-    background-color: rgba(0, 0, 0, 0.895);
+    background-color: rgba(0, 0, 0, 0.850);
+    width: 100%;
 }
 
 .atual {
@@ -26,6 +30,7 @@ body {
 
 .header-img {
     width: 200px;
+    margin-right: 300px;
 }
 
 .navbar {
@@ -44,7 +49,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color:rgba(0, 0, 0, 0.895);
+    background-color:rgba(0, 0, 0, 0.750);
     padding: 50px;
     border-radius: 20px;
     width: 40%;
@@ -79,7 +84,6 @@ body {
     cursor: pointer;
     transition: background-color 1s, color 1s;
 }
-
 
 .button:hover { /* adicionar efeito sempre que vc passar o mouse em cima do elemento */
     background-color: black;
