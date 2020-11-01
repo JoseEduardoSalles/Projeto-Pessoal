@@ -23,6 +23,8 @@ body {
     margin-bottom: 50px;
     background-color: rgba(0, 0, 0, 0.850);
     width: 100%;
+    border-bottom: 4px darkblue solid;
+    padding: 10px 0;
 }
 
 .atual {

@@ -11,7 +11,7 @@ body {
     background-image: url(../img/fundoHome.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -25,9 +25,9 @@ body {
     background-color: rgba(0, 0, 0, 0.850);
     width: 100%;
     position: fixed;
-    top: 0;
     z-index: 5;
-    padding: 10px;
+    padding: 10px 0;
+    border-bottom: 4px darkblue solid;
 }
 
 .atual {
@@ -127,6 +127,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     padding: 10px 0;
+    border-top: 4px darkblue solid;
 }
 
 .footer-text {
@@ -141,5 +142,17 @@ body {
 .footer-img {
     width: 50px;
     margin: 0 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: blue;
+}
+
+body::-webkit-scrollbar-track {
+    background-color:  rgba(0, 0, 0, 0.850);
+}
+
+body::-webkit-scrollbar {
+    width: 3px;
 }
 
